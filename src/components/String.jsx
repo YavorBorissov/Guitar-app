@@ -21,7 +21,8 @@ export default function String({
         slidesToShow: 12,
         slidesToScroll: 1,
         initialSlide: slide,
-        swipe: false,
+        swipeToSlide: true,
+        touchThreshold: 1001,
         nextArrow: <FaArrowRight />,
         prevArrow: <FaArrowLeft />,
         afterChange: (current) => {

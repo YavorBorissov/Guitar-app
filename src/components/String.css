@@ -1,0 +1,36 @@
+.aa {
+    background-color: aquamarine;
+}
+
+.img {
+    height: 50px;
+    background-color: blue;
+}
+
+.container-slider {
+    margin-bottom: 2px;
+}
+
+#slider-item {
+    text-align: center;
+    border-right: 1px solid black !important;
+    border-left: 1px solid black !important;
+    background-color: lightgray;
+}
+
+.slick-arrow {
+    color: black !important;
+}
+
+.note-container {
+    cursor: pointer;
+}
+
+.note {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.note-selected div {
+    background-color: lightgreen;
+}

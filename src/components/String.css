@@ -19,7 +19,7 @@
 }
 
 .slick-arrow {
-    color: black !important;
+    color: rgb(187, 189, 189) !important;
 }
 
 .note-container {
@@ -32,5 +32,9 @@
 }
 
 .note-selected div {
-    background-color: lightgreen;
+    background-color: rgb(55, 212, 160);
+}
+
+html, #root {
+    background-color: rgb(62, 45, 71);
 }

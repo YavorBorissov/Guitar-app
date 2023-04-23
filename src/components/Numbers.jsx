@@ -13,31 +13,34 @@ export default function Numbers() {
     return (
         <div className="container-slider">
             <Slider {...settings}>
+                <div id="slider-item-number-tune">
+                    <h3>(tune)</h3>
+                </div>
                 <div id="slider-item-number">
                     <h3>1</h3>
                 </div>
                 <div id="slider-item-number">
                     <h3>2</h3>
                 </div>
-                <div id="slider-item-number">
+                <div id="slider-item-number-marked-frets">
                     <h3>3</h3>
                 </div>
                 <div id="slider-item-number">
                     <h3>4</h3>
                 </div>
-                <div id="slider-item-number">
+                <div id="slider-item-number-marked-frets">
                     <h3>5</h3>
                 </div>
                 <div id="slider-item-number">
                     <h3>6</h3>
                 </div>
-                <div id="slider-item-number">
+                <div id="slider-item-number-marked-frets">
                     <h3>7</h3>
                 </div>
                 <div id="slider-item-number">
                     <h3>8</h3>
                 </div>
-                <div id="slider-item-number">
+                <div id="slider-item-number-marked-frets">
                     <h3>9</h3>
                 </div>
                 <div id="slider-item-number">
@@ -46,9 +49,7 @@ export default function Numbers() {
                 <div id="slider-item-number">
                     <h3>11</h3>
                 </div>
-                <div id="slider-item-number">
-                    <h3>12(tune)</h3>
-                </div>
+                
             </Slider>
         </div>
     )

@@ -20,7 +20,7 @@ import "slick-carousel/slick/slick-theme.css"
 import Numbers from "./components/Numbers"
 
 export default function App() {
-    const initialSlides = [1, 8, 4, 11, 6, 1, 8]
+    const initialSlides = [0, 7, 3, 10, 5, 0, 7]
     const [slides, setSlides] = useState(initialSlides)
     const [selectedNote, setSelectedNote] = useState(null)
 

@@ -4,3 +4,16 @@
     border-left: 1px solid black !important;
     background-color: aliceblue;
 }
+
+#slider-item-number-tune{
+    text-align: center;
+    border-right: 1px solid black !important;
+    border-left: 1px solid black !important;
+    background-color: rgb(104, 224, 34);
+}
+#slider-item-number-marked-frets{
+    text-align: center;
+    border-right: 1px solid black !important;
+    border-left: 1px solid black !important;
+    background-color: rgb(165, 165, 164);
+}
